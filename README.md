@@ -53,46 +53,40 @@
 * cv2
 * dlib
 
-
-  <details>
-  <summary>cv2</summary>  
-    ```shell
-    pip install opencv-python
-    ```
-  </details>
-  <details>
-  <summary>dlib</summary>
-    * Install cmake in console
-    ```shell
-    pip install cmake
-    ```
-    * Download dlib file in [this web](http://dlib.net/) and unzip.
-    * console again, Go to the place where 'dlib' is located and write the code in turn.
-    ```shell
-    python setup.py build
-    ```
-    ```shell
-    python setup.py install
-    ```
-  </details>
-  <details>
-  <summary>numpy</summary>  
-    ```shell
-    pip install numpy
-    ```
-  </details>
-  <details>
-  <summary>imutils</summary>
-    ```shell
-    pip install imutils
-    ```
-  </details>
-  <details>
-  <summary>keras</summary>   
-    ```
-    pip install Keras
-    ```
-  </details>
+<details><summary>cv2</summary>
+```shell
+pip install opencv-python
+```
+</details>
+<details><summary>dlib</summary>
+* Install cmake in console
+```shell
+pip install cmake
+```
+* Download dlib file in [this web](http://dlib.net/) and unzip.
+* console again, Go to the place where 'dlib' is located and write the code in turn.
+```shell
+python setup.py build
+```
+```shell
+python setup.py install
+```
+</details>
+<details><summary>numpy</summary>  
+```shell
+pip install numpy
+```
+</details>
+<details><summary>imutils</summary>
+```shell
+pip install imutils
+```
+</details>
+<details><summary>keras</summary>   
+```
+pip install Keras
+```
+</details>
 
 ### 실행
 

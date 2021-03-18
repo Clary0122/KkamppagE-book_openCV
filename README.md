@@ -46,3 +46,22 @@
 ### Long Blink
 * Previous page
 ![long_blink](https://user-images.githubusercontent.com/79209568/111641879-ea974a00-8840-11eb-9f58-1f1e6b378899.gif)
+  
+  
+## 실행하기
+### 필요 모듈
+<details>
+<summary>여기를 눌러주세요</summary>
+<div markdown="1">       
+
+😎숨겨진 내용😎
+
+</div>
+</details>
+* cv2
+* dlib
+* numpy
+* imutils
+* keras
+
+### 

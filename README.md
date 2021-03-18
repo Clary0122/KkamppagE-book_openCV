@@ -1,6 +1,6 @@
 # KkamppagE-book
 ## project_KkamppagE-book_opencv
-👀 깜빡E-book :: 눈 깜빡임으로 E-book 페이지 조작 👀 
+👀 깜빡E-book :: openCV로 간단한 눈 깜빡임 페이지 조작 시스템 구현 👀
 * 2020 프로젝트 종합 설계 '깜빡E-book'
 * 프로젝트 기간 : 2020.03 ~ 2020.04 
   

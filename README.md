@@ -36,4 +36,13 @@
   
 ## Demo
 ### Blink
-![image](https://user-images.githubusercontent.com/79209568/111640366-7a3bf900-883f-11eb-84bd-2a985838285d.gif)
+* No page Movement
+![blink](https://user-images.githubusercontent.com/79209568/111640732-d3a42800-883f-11eb-895c-d4851d4f18d6.gif)
+
+### Double Blink
+* Next page
+![double_blink](https://user-images.githubusercontent.com/79209568/111641323-60e77c80-8840-11eb-884b-88606980ee86.gif)
+
+### Long Blink
+* Previous page
+![long_blink](https://user-images.githubusercontent.com/79209568/111641879-ea974a00-8840-11eb-9f58-1f1e6b378899.gif)

@@ -50,16 +50,16 @@
   
 ## 실행하기
 ### 필요 모듈
+* cv2
 <details>
-<summary>여기를 눌러주세요</summary>
+<summary>dlib (Click for download method) </summary>
 <div markdown="1">       
 
 😎숨겨진 내용😎
 
 </div>
 </details>
-* cv2
-* dlib
+
 * numpy
 * imutils
 * keras

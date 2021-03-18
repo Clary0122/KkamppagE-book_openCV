@@ -86,3 +86,6 @@
 ### 참고 코드
 * video capture, 눈 깜빡임 인식 코드 참고
 * [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/test.py)
+
+## 깜빡E-book의 다른 프로젝트
+* [ANDROID](https://github.com/chaeyun0122/KkamppagE-book_Android.git)

@@ -22,13 +22,13 @@
 1. 감은 눈과 뜬 눈으로 구성된 [데이터셋](#Blink-Dataset)을 사용해서 눈이 떠져있는 상태에는 1.0, 눈이 감겨있는 상태에는 0.0을 예측하는 모델을 생성한다.  
 (Using a dataset consist of closed eyes and open eyes, build a model that predicts 1.0 for open eyes and 0.0 for closed eyes.)
   
-2. 웹캠으로부터 사용자의 얼굴을 인식한다.  
+2. 웹캠으로부터 사용자의 [얼굴을 인식](#얼굴-인식)한다.  
 (Recognize the user's face from the webcam.)
 
 3. 인식한 사용자의 얼굴에서 눈을 크롭하여 눈 깜빡임 감지 모델을 적용한다.  
 (Apply blink detection model to cropped eyes)
 
-4. 실시간으로 사용자의 눈 깜빡임에 따라 0~1 사이의 예측값이 깜빡임 상태 변수(pred_l, pred_r)에 업데이트된다.   
+4. 실시간으로 사용자의 눈 깜빡임에 따라 0~1 사이의 예측값이 깜빡임 상태 변수(pred_l, pred_r)에 업데이트된다. <sub>[참고 코드](#참고-코드)</sub>  
 (As users blink in real time, prediction values between 0 and 1 are updated in the blink state variable.)  
   
 ## 시스템 동작
@@ -78,4 +78,9 @@
 
 ## References
 ### Blink Dataset
-* [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv)
+* 모델 학습 시킨 데이터셋 : [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv)
+### 얼굴 인식
+* 얼굴 인식 모델 : [👉URL👈](https://github.com/davisking/dlib-models/blob/4232818ed889ba60e33d5bf5fc47d28f27a911f9/shape_predictor_68_face_landmarks.dat.bz2)
+### 참고 코드
+* video capture, 눈 깜빡임 인식 코드 참고
+* [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/test.py)

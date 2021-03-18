@@ -19,7 +19,7 @@
 ## 시스템 설계
 ![image](https://user-images.githubusercontent.com/79209568/111575966-dd536e80-87f2-11eb-94f7-d78b5eae1802.png)
 
-1. 감은 눈과 뜬 눈으로 구성된 [데이터셋](#Blink-Dataset)을 사용해서 눈이 떠져있는 상태에는 1.0, 눈이 감겨있는 상태에는 0.0을 예측하는 모델을 생성한다.  
+1. 감은 눈과 뜬 눈으로 구성된 [데이터셋](#Blink-Dataset)을 사용해서 눈이 떠져있는 상태에는 1.0, 눈이 감겨있는 상태에는 0.0을 예측하는 모델을 생성한다. [👉모델생성과정👈](https://github.com/chaeyun0122/KkamppagE-book_openCV/blob/main/preprocessing_train.ipynb)  
 (Using a dataset consist of closed eyes and open eyes, build a model that predicts 1.0 for open eyes and 0.0 for closed eyes.)
   
 2. 웹캠으로부터 사용자의 [얼굴을 인식](#얼굴-인식)한다.  

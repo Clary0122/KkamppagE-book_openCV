@@ -51,14 +51,14 @@
 ## 실행하기
 ### 필요 모듈
 * cv2
-  <details>
-  <summary>dlib (Click for download method) </summary>
-  <div markdown="1">       
+ <details>
+ <summary>dlib (Click for download method) </summary>
+ <div markdown="1">       
 
-  😎숨겨진 내용😎
+ 😎숨겨진 내용😎
 
-  </div>
-  </details>
+ </div>
+ </details>
 
 * numpy
 * imutils

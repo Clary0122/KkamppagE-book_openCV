@@ -50,18 +50,56 @@
   
 ## 실행하기
 ### 필요 모듈
-* cv2
- <details>
- <summary>dlib (Click for download method) </summary>
- <div markdown="1">       
+* Click for download method
+<details>
+<summary>cv2</summary>
+<div markdown="1">       
+  ```
+  pip install opencv-python
+  ```
+</div>
+</details>
+<details>
+<summary>dlib</summary>
+<div markdown="1">       
+  * Install cmake in console
+  ```
+  pip install cmake
+  ```
+  * Download dlib file in [this web](http://dlib.net/) and unzip.
+  * console again, Go to the place where 'dlib' is located and write the code in turn.
+  ```
+  python setup.py build
+  ```
+  ```
+  python setup.py install
+  ```
+</div>
+</details>
+<details>
+<summary>numpy</summary>
+<div markdown="1">       
+  ```
+  pip install numpy
+  ```
+</div>
+</details>
+<details>
+<summary>imutils</summary>
+<div markdown="1">       
+  ```
+  pip install imutils
+  ```
+</div>
+</details>
+<details>
+<summary>keras</summary>
+<div markdown="1">       
+  ```
+  pip install Keras
+  ```
+</div>
+</details>
 
- 😎숨겨진 내용😎
+### 실행
 
- </div>
- </details>
-
-* numpy
-* imutils
-* keras
-
-### 

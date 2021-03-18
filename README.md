@@ -19,7 +19,7 @@
 ## 시스템 설계
 ![image](https://user-images.githubusercontent.com/79209568/111575966-dd536e80-87f2-11eb-94f7-d78b5eae1802.png)
 
-1. 감은 눈과 뜬 눈으로 구성된 <div {display:inline} id ="Blink Dataset">데이터셋<sup>[1](#dataset_)</sup></div>을 사용해서 눈이 떠져있는 상태에는 1.0, 눈이 감겨있는 상태에는 0.0을 예측하는 모델을 생성한다.  
+1. 감은 눈과 뜬 눈으로 구성된 [데이터셋](#Blink Dataset)을 사용해서 눈이 떠져있는 상태에는 1.0, 눈이 감겨있는 상태에는 0.0을 예측하는 모델을 생성한다.  
 (Using a dataset consist of closed eyes and open eyes, build a model that predicts 1.0 for open eyes and 0.0 for closed eyes.)
   
 2. 웹캠으로부터 사용자의 얼굴을 인식한다.  
@@ -75,4 +75,7 @@
   python Kkamppag_Ebook.py
   ```
 
-<div id ="dataset_">[1](#Blink Dataset) https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv</div>
+
+## References
+<div id ="Blink Dataset">Blink Dataset : </div>
+[👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv)

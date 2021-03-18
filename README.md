@@ -50,18 +50,18 @@
   
 ## 실행하기
 ### 필요 모듈
-* Click for download method
+* cv2
+* dlib
+
+
   <details>
-  <summary>cv2</summary>
-  <div markdown="1">       
+  <summary>cv2</summary>  
     ```shell
     pip install opencv-python
     ```
-  </div>
   </details>
   <details>
   <summary>dlib</summary>
-  <div markdown="1">       
     * Install cmake in console
     ```shell
     pip install cmake
@@ -74,31 +74,24 @@
     ```shell
     python setup.py install
     ```
-  </div>
   </details>
   <details>
-  <summary>numpy</summary>
-  <div markdown="1">       
+  <summary>numpy</summary>  
     ```shell
     pip install numpy
     ```
-  </div>
   </details>
   <details>
   <summary>imutils</summary>
-  <div markdown="1">       
     ```shell
     pip install imutils
     ```
-  </div>
   </details>
   <details>
-  <summary>keras</summary>
-  <div markdown="1">       
-    ```shell
+  <summary>keras</summary>   
+    ```
     pip install Keras
     ```
-  </div>
   </details>
 
 ### 실행

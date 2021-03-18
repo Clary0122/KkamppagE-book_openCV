@@ -52,18 +52,18 @@
 ### 필요 모듈
 * cv2
 * dlib
- > Install cmake in console
-  ```shell
-  pip install cmake
-  ```
- > Download dlib file in [this web](http://dlib.net/) and unzip.
- > console again, Go to the place where 'dlib' is located and write the code in turn.
-  ```shell
-  python setup.py build
-  ```
-  ```shell
-  python setup.py install
-  ```
+     > Install cmake in console
+      ```shell
+      pip install cmake
+      ```
+     > Download dlib file in [this web](http://dlib.net/) and unzip.
+     > console again, Go to the place where 'dlib' is located and write the code in turn.
+      ```shell
+      python setup.py build
+      ```
+      ```shell
+      python setup.py install
+      ```
 * imutils
 * keras
 

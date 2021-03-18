@@ -78,9 +78,11 @@
 
 ## References
 ### Blink Dataset
-* 모델 학습 시킨 데이터셋 : [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv)
+* 모델 학습 시킨 데이터셋
+* [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv)
 ### 얼굴 인식
-* 얼굴 인식 모델 : [👉URL👈](https://github.com/davisking/dlib-models/blob/4232818ed889ba60e33d5bf5fc47d28f27a911f9/shape_predictor_68_face_landmarks.dat.bz2)
+* 학습된 얼굴 인식 모델 사용
+* [👉URL👈](https://github.com/davisking/dlib-models/blob/4232818ed889ba60e33d5bf5fc47d28f27a911f9/shape_predictor_68_face_landmarks.dat.bz2)
 ### 참고 코드
 * video capture, 눈 깜빡임 인식 코드 참고
 * [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/test.py)

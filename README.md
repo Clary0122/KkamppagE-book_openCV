@@ -19,8 +19,9 @@
 ## 시스템 설계
 ![image](https://user-images.githubusercontent.com/79209568/111575966-dd536e80-87f2-11eb-94f7-d78b5eae1802.png)
 
-1. 감은 눈과 뜬 눈으로 구성된 [데이터셋](#Blink-Dataset)을 사용해서 눈이 떠져있는 상태에는 1.0, 눈이 감겨있는 상태에는 0.0을 예측하는 모델을 생성한다. [👉모델생성과정👈](https://github.com/chaeyun0122/KkamppagE-book_openCV/blob/main/preprocessing_train.ipynb)  
-(Using a dataset consist of closed eyes and open eyes, build a model that predicts 1.0 for open eyes and 0.0 for closed eyes.)
+1. 감은 눈과 뜬 눈으로 구성된 [데이터셋](#Blink-Dataset)을 사용해서 눈이 떠져있는 상태에는 1.0, 눈이 감겨있는 상태에는 0.0을 예측하는 모델을 생성한다.   
+(Using a dataset consist of closed eyes and open eyes, build a model that predicts 1.0 for open eyes and 0.0 for closed eyes.)  
+[👉모델생성과정👈](https://github.com/chaeyun0122/KkamppagE-book_openCV/blob/main/preprocessing_train.ipynb)
   
 2. 웹캠으로부터 사용자의 [얼굴을 인식](#얼굴-인식)한다.  
 (Recognize the user's face from the webcam.)
@@ -80,12 +81,16 @@
 ### Blink Dataset
 * 모델 학습 시킨 데이터셋
 * [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv)
+> [🔺  Go back to original text](#시스템-설계)
 ### 얼굴 인식
 * 학습된 얼굴 인식 모델 사용
 * [👉URL👈](https://github.com/davisking/dlib-models/blob/4232818ed889ba60e33d5bf5fc47d28f27a911f9/shape_predictor_68_face_landmarks.dat.bz2)
+> [🔺  Go back to original text](#시스템-설계)
 ### 참고 코드
 * video capture, 눈 깜빡임 인식 코드 참고
 * [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/test.py)
+> [🔺  Go back to original text](#시스템-설계)
+
 
 ## 깜빡E-book의 다른 프로젝트
 * [ANDROID](https://github.com/chaeyun0122/KkamppagE-book_Android.git)

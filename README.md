@@ -55,7 +55,7 @@ long_blink = '' if l_end_time < 1.0 else 'Long Blink'
 ```
 
 
-## Example
+## Demo
 ### Blink
 * **No page Movement**
 ![blink](https://user-images.githubusercontent.com/79209568/111640732-d3a42800-883f-11eb-895c-d4851d4f18d6.gif)

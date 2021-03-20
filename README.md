@@ -91,15 +91,15 @@ long_blink = '' if l_end_time < 1.0 else 'Long Blink'
 * cv2
 * dlib
      > - Install cmake in prompt  
-      ```shell
+      ```
       pip install cmake
       ```   
      > - Download dlib file in [this web](http://dlib.net/) and unzip.   
      > - Prompt again, Go to the place where 'dlib' is located and write the code in turn.   
-      ```shell
+      ```
       python setup.py build
       ```   
-      ```shell
+      ```
       python setup.py install
       ```   
 * imutils

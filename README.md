@@ -109,7 +109,7 @@ long_blink = '' if l_end_time < 1.0 else 'Long Blink'
   
 ## References
 ### Blink Dataset
-* 모델 학습 시킨 데이터셋
+* 감은 눈과 뜬 눈 데이터셋
 * [👉URL👈](https://github.com/kairess/eye_blink_detector/blob/118b15c7a1444411cc823a540b23ad2db94c7167/dataset/dataset.csv)
 
 ### 얼굴 인식
